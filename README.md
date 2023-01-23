@@ -21,7 +21,3 @@ git status
 ##### ***all bold and italic***
 ##### <sub>subscript</sub>
 ##### <sup>superscript</sup>
-
-**work**
-__work__
-work
