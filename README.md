@@ -14,7 +14,7 @@
 git status
 ```
 ##### and extras:
-**bold**
+##### **This is bold text**
 ##### *italic*
 ##### ~~strikethrough~~
 **bold _and_ nested italic**
