@@ -17,7 +17,7 @@ git status
 ##### **This is bold text**
 ##### *italic*
 ##### ~~strikethrough~~
-**bold _and_ nested italic**
-***all bold and italic***
+##### **bold _and_ nested italic**
+##### ***all bold and italic***
 ##### <sub>subscript</sub>
 ##### <sup>superscript</sup>
