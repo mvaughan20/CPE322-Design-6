@@ -13,11 +13,11 @@
 ```
 git status
 ```
-##### and extras
-##### **bold**
+##### and extras:
+##### __bold__
 ##### *italic*
 ##### ~~strikethrough~~
-##### **bolt _and_ nested italic**
+##### **bold _and_ nested italic**
 ##### ***all bold and italic***
 ##### <sub>subscript</sub>
 ##### <sup>superscript</sup>
