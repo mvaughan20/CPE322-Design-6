@@ -14,4 +14,4 @@
 git status
 ```
 ##### and extras
-<span style="color:blue">some *blue* text</span>.
+- ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `#f03c15`
