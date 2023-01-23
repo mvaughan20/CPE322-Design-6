@@ -14,4 +14,10 @@
 git status
 ```
 ##### and extras
-- ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `#f03c15`
+##### **bold**
+##### *italic*
+##### ~~strikethrough~~
+##### **bolt _and_ nested italic**
+##### ***all bold and italic***
+##### <sub>subscript</sub>
+##### <sup>superscript</sup>
