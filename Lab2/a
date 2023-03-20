@@ -1,1 +1,256 @@
 
+mcvwv@angst-machine MINGW64 ~
+$ pacman -S git
+warning: database file for 'clangarm64' does not exist (use '-Sy' to download)
+error: failed to prepare transaction (could not find database)
+
+mcvwv@angst-machine MINGW64 ~
+$ pacman -Sy git
+:: Synchronizing package databases...
+ clangarm64                     1130.5 KiB   538 KiB/s 00:02 [###############################] 100%
+ mingw32 is up to date
+ mingw64 is up to date
+ ucrt64 is up to date
+ clang32 is up to date
+ clang64 is up to date
+ msys is up to date
+resolving dependencies...
+looking for conflicting packages...
+
+Packages (33) heimdal-7.8.0-3  libcbor-0.10.2-1  libfido2-1.13.0-1  openssh-9.3p1-1
+              perl-Authen-SASL-2.16-3  perl-Clone-0.46-1  perl-Convert-BinHex-1.125-2
+              perl-Encode-Locale-1.05-2  perl-Error-0.17029-1  perl-File-Listing-6.15-1
+              perl-HTML-Parser-3.81-1  perl-HTML-Tagset-3.20-3  perl-HTTP-Cookies-6.10-2
+              perl-HTTP-Daemon-6.16-1  perl-HTTP-Date-6.05-1  perl-HTTP-Message-6.44-1
+              perl-HTTP-Negotiate-6.01-3  perl-IO-HTML-1.004-2  perl-IO-Socket-SSL-2.081-1
+              perl-IO-Stringy-2.113-1  perl-LWP-MediaTypes-6.04-1  perl-MIME-tools-5.510-1
+              perl-MailTools-2.21-1  perl-Net-HTTP-6.22-1  perl-Net-SMTP-SSL-1.04-2
+              perl-Net-SSLeay-1.92-4  perl-TermReadKey-2.38-5  perl-TimeDate-2.33-2
+              perl-Try-Tiny-0.31-1  perl-URI-5.17-2  perl-WWW-RobotRules-6.02-2  perl-libwww-6.67-1
+              git-2.40.0-1
+
+Total Download Size:    8.88 MiB
+Total Installed Size:  47.17 MiB
+
+:: Proceed with installation? [Y/n] y
+:: Retrieving packages...
+ perl-MIME-tools-5.510-1-any     183.6 KiB   292 KiB/s 00:01 [###############################] 100%
+ openssh-9.3p1-1-x86_64          963.1 KiB  1281 KiB/s 00:01 [###############################] 100%
+ perl-Net-SSLeay-1.92-4-x86_64   209.4 KiB   254 KiB/s 00:01 [###############################] 100%
+ heimdal-7.8.0-3-x86_64          544.5 KiB   587 KiB/s 00:01 [###############################] 100%
+ perl-IO-Socket-SSL-2.081-1-any  157.2 KiB   267 KiB/s 00:01 [###############################] 100%
+ perl-libwww-6.67-1-any          129.8 KiB   239 KiB/s 00:01 [###############################] 100%
+ perl-HTML-Parser-3.81-1-x86_64   80.2 KiB   125 KiB/s 00:01 [###############################] 100%
+ perl-HTTP-Message-6.44-1-any     77.1 KiB   153 KiB/s 00:01 [###############################] 100%
+ libfido2-1.13.0-1-x86_64         76.4 KiB   169 KiB/s 00:00 [###############################] 100%
+ perl-Authen-SASL-2.16-3-any      37.9 KiB  70.0 KiB/s 00:01 [###############################] 100%
+ perl-URI-5.17-2-any              80.1 KiB  58.4 KiB/s 00:01 [###############################] 100%
+ git-2.40.0-1-x86_64               6.2 MiB  1800 KiB/s 00:04 [###############################] 100%
+ perl-TimeDate-2.33-2-any         35.6 KiB  48.4 KiB/s 00:01 [###############################] 100%
+ perl-Convert-BinHex-1.125-...    29.8 KiB  48.3 KiB/s 00:01 [###############################] 100%
+ perl-HTTP-Cookies-6.10-2-any     21.9 KiB  26.2 KiB/s 00:01 [###############################] 100%
+ perl-TermReadKey-2.38-5-x86_64   20.5 KiB  24.4 KiB/s 00:01 [###############################] 100%
+ perl-HTTP-Daemon-6.16-1-any      18.7 KiB  29.0 KiB/s 00:01 [###############################] 100%
+ libcbor-0.10.2-1-x86_64          18.1 KiB  30.2 KiB/s 00:01 [###############################] 100%
+ perl-IO-HTML-1.004-2-any         14.4 KiB  23.1 KiB/s 00:01 [###############################] 100%
+ perl-HTML-Tagset-3.20-3-any      10.9 KiB  18.1 KiB/s 00:01 [###############################] 100%
+ perl-HTTP-Negotiate-6.01-3-any   12.1 KiB  14.3 KiB/s 00:01 [###############################] 100%
+ perl-Encode-Locale-1.05-2-any    10.7 KiB  18.1 KiB/s 00:01 [###############################] 100%
+ perl-Clone-0.46-1-x86_64         10.4 KiB  13.6 KiB/s 00:01 [###############################] 100%
+ perl-Net-SMTP-SSL-1.04-2-any      4.9 KiB  7.92 KiB/s 00:01 [###############################] 100%
+ Total (24/24)                     8.9 MiB  1460 KiB/s 00:06 [###############################] 100%
+(33/33) checking keys in keyring                             [###############################] 100%
+(33/33) checking package integrity                           [###############################] 100%
+(33/33) loading package files                                [###############################] 100%
+(33/33) checking for file conflicts                          [###############################] 100%
+(33/33) checking available disk space                        [###############################] 100%
+:: Processing package changes...
+( 1/33) installing heimdal                                   [###############################] 100%
+( 2/33) installing libcbor                                   [###############################] 100%
+( 3/33) installing libfido2                                  [###############################] 100%
+( 4/33) installing openssh                                   [###############################] 100%
+( 5/33) installing perl-Error                                [###############################] 100%
+( 6/33) installing perl-Authen-SASL                          [###############################] 100%
+( 7/33) installing perl-Encode-Locale                        [###############################] 100%
+( 8/33) installing perl-HTTP-Date                            [###############################] 100%
+( 9/33) installing perl-File-Listing                         [###############################] 100%
+(10/33) installing perl-HTML-Tagset                          [###############################] 100%
+(11/33) installing perl-Clone                                [###############################] 100%
+(12/33) installing perl-IO-HTML                              [###############################] 100%
+(13/33) installing perl-LWP-MediaTypes                       [###############################] 100%
+(14/33) installing perl-URI                                  [###############################] 100%
+(15/33) installing perl-HTTP-Message                         [###############################] 100%
+(16/33) installing perl-HTML-Parser                          [###############################] 100%
+(17/33) installing perl-HTTP-Cookies                         [###############################] 100%
+(18/33) installing perl-HTTP-Daemon                          [###############################] 100%
+(19/33) installing perl-HTTP-Negotiate                       [###############################] 100%
+(20/33) installing perl-Net-HTTP                             [###############################] 100%
+(21/33) installing perl-WWW-RobotRules                       [###############################] 100%
+(22/33) installing perl-Try-Tiny                             [###############################] 100%
+(23/33) installing perl-libwww                               [###############################] 100%
+Optional dependencies for perl-libwww
+    perl-LWP-Protocol-https: for https:// url schemes
+(24/33) installing perl-TimeDate                             [###############################] 100%
+(25/33) installing perl-MailTools                            [###############################] 100%
+(26/33) installing perl-IO-Stringy                           [###############################] 100%
+(27/33) installing perl-Convert-BinHex                       [###############################] 100%
+module test... pass.
+(28/33) installing perl-MIME-tools                           [###############################] 100%
+(29/33) installing perl-Net-SSLeay                           [###############################] 100%
+(30/33) installing perl-IO-Socket-SSL                        [###############################] 100%
+(31/33) installing perl-Net-SMTP-SSL                         [###############################] 100%
+(32/33) installing perl-TermReadKey                          [###############################] 100%
+(33/33) installing git                                       [###############################] 100%
+Optional dependencies for git
+    python: various helper scripts
+    subversion: git svn
+
+mcvwv@angst-machine MINGW64 ~
+$ git clone https://github.com/kevinwlu/iot.git
+Cloning into 'iot'...
+remote: Enumerating objects: 18352, done.
+remote: Counting objects: 100% (1066/1066), done.
+remote: Compressing objects: 100% (411/411), done.
+remote: Total 18352 (delta 591), reused 890 (delta 492), pack-reused 17286
+Receiving objects: 100% (18352/18352), 27.56 MiB | 9.92 MiB/s, done.
+Resolving deltas: 100% (12322/12322), done.
+
+mcvwv@angst-machine MINGW64 ~
+$ ls
+iot
+
+mcvwv@angst-machine MINGW64 ~
+$ cd iot
+
+mcvwv@angst-machine MINGW64 ~/iot
+$ ls
+README.md  economics  lesson10  lesson4  lesson7  make              standards
+apps       hype       lesson2   lesson5  lesson8  projects          tools
+cases      lesson1    lesson3   lesson6  lesson9  special_problems
+
+mcvwv@angst-machine MINGW64 ~/iot
+$ cd
+
+mcvwv@angst-machine MINGW64 ~
+$ df
+Filesystem     1K-blocks      Used Available Use% Mounted on
+C:/msys64      480356348 346328492 134027856  73% /
+
+mcvwv@angst-machine MINGW64 ~
+$ mkdir demo
+
+mcvwv@angst-machine MINGW64 ~
+$ cd demo
+
+mcvwv@angst-machine MINGW64 ~/demo
+$ nano file
+
+mcvwv@angst-machine MINGW64 ~/demo
+$ cat file
+cat: file: No such file or directory
+
+mcvwv@angst-machine MINGW64 ~/demo
+$ cp file file1
+cp: cannot stat 'file': No such file or directory
+
+mcvwv@angst-machine MINGW64 ~/demo
+$ nano file
+
+mcvwv@angst-machine MINGW64 ~/demo
+$ nano file
+
+mcvwv@angst-machine MINGW64 ~/demo
+$ cat file
+test
+
+
+mcvwv@angst-machine MINGW64 ~/demo
+$ cp file file1
+
+mcvwv@angst-machine MINGW64 ~/demo
+$ mv file file2
+
+mcvwv@angst-machine MINGW64 ~/demo
+$ rm file2
+
+mcvwv@angst-machine MINGW64 ~/demo
+$ man uname
+-bash: man: command not found
+
+mcvwv@angst-machine MINGW64 ~/demo
+$ uname
+MINGW64_NT-10.0-22000
+
+mcvwv@angst-machine MINGW64 ~/demo
+$ uname -a
+MINGW64_NT-10.0-22000 angst-machine 3.4.6.x86_64 2023-02-15 18:03 UTC x86_64 Msys
+
+mcvwv@angst-machine MINGW64 ~/demo
+$ ifconfig
+-bash: ifconfig: command not found
+
+mcvwv@angst-machine MINGW64 ~/demo
+$ ipconfig
+
+Windows IP Configuration
+
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . : dhcp.stevens-tech.edu
+   Link-local IPv6 Address . . . . . : fe80::50b7:9e4a:22a5:c05f%8
+   IPv4 Address. . . . . . . . . . . : 10.156.89.41
+   Subnet Mask . . . . . . . . . . . : 255.255.224.0
+   Default Gateway . . . . . . . . . : 10.156.64.1
+
+Ethernet adapter Bluetooth Network Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+mcvwv@angst-machine MINGW64 ~/demo
+$ ping localhost
+
+Pinging angst-machine [::1] with 32 bytes of data:
+Reply from ::1: time<1ms
+Reply from ::1: time<1ms
+Reply from ::1: time<1ms
+Reply from ::1: time<1ms
+
+Ping statistics for ::1:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+mcvwv@angst-machine MINGW64 ~/demo
+$ netstat
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    10.156.89.41:49521     20.25.241.18:https     ESTABLISHED
+  TCP    10.156.89.41:53192     47:https               ESTABLISHED
+  TCP    10.156.89.41:53196     bc-in-f188:https       ESTABLISHED
+  TCP    10.156.89.41:53218     lb-140-82-112-25-iad:https  ESTABLISHED
+  TCP    10.156.89.41:53223     170-114-253:https      ESTABLISHED
+  TCP    10.156.89.41:53419     ec2-3-235-96-60:https  CLOSE_WAIT
+  TCP    10.156.89.41:53519     server-13-35-96-84:https  ESTABLISHED
+  TCP    10.156.89.41:53520     server-54-230-162-195:https  ESTABLISHED
+  TCP    10.156.89.41:53522     server-54-230-162-195:https  ESTABLISHED
+  TCP    10.156.89.41:53530     151.101.129.51:https   ESTABLISHED
+  TCP    10.156.89.41:53556     server-108-138-125-162:https  ESTABLISHED
+  TCP    10.156.89.41:53557     server-18-164-93-226:https  ESTABLISHED
+  TCP    10.156.89.41:53560     54.239.26.205:https    ESTABLISHED
+  TCP    10.156.89.41:53561     54.239.26.205:https    ESTABLISHED
+  TCP    10.156.89.41:54056     170-114-14-76:https    ESTABLISHED
+  TCP    10.156.89.41:56396     162.159.130.234:https  ESTABLISHED
