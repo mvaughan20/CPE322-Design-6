@@ -139,14 +139,89 @@ $ nano file
 ###code inside nano file is simply the word "test"
 ```
 ```
+$ cat file
+test
+```
+```
+$ cp file file1
+```
+```
+$ mv file file2
+```
+```
+$ rm file2
+```
+```
+$ uname
+MINGW64_NT-10.0-22000
+```
+```
+$ uname -a
+MINGW64_NT-10.0-22000 angst-machine 3.4.6.x86_64 2023-02-15 18:03 UTC x86_64 Msys
+```
+```
+$ ipconfig
 
-```
-```
+Windows IP Configuration
 
-```
-```
 
-```
-```
+Wireless LAN adapter Local Area Connection* 1:
 
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . : dhcp.stevens-tech.edu
+   Link-local IPv6 Address . . . . . : fe80::50b7:9e4a:22a5:c05f%8
+   IPv4 Address. . . . . . . . . . . : 10.156.89.41
+   Subnet Mask . . . . . . . . . . . : 255.255.224.0
+   Default Gateway . . . . . . . . . : 10.156.64.1
+
+Ethernet adapter Bluetooth Network Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+mcvwv@angst-machine MINGW64 ~/demo
+$ ping localhost
+
+Pinging angst-machine [::1] with 32 bytes of data:
+Reply from ::1: time<1ms
+Reply from ::1: time<1ms
+Reply from ::1: time<1ms
+Reply from ::1: time<1ms
+
+Ping statistics for ::1:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+mcvwv@angst-machine MINGW64 ~/demo
+$ netstat
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    10.156.89.41:49521     20.25.241.18:https     ESTABLISHED
+  TCP    10.156.89.41:53192     47:https               ESTABLISHED
+  TCP    10.156.89.41:53196     bc-in-f188:https       ESTABLISHED
+  TCP    10.156.89.41:53218     lb-140-82-112-25-iad:https  ESTABLISHED
+  TCP    10.156.89.41:53223     170-114-253:https      ESTABLISHED
+  TCP    10.156.89.41:53419     ec2-3-235-96-60:https  CLOSE_WAIT
+  TCP    10.156.89.41:53519     server-13-35-96-84:https  ESTABLISHED
+  TCP    10.156.89.41:53520     server-54-230-162-195:https  ESTABLISHED
+  TCP    10.156.89.41:53522     server-54-230-162-195:https  ESTABLISHED
+  TCP    10.156.89.41:53530     151.101.129.51:https   ESTABLISHED
+  TCP    10.156.89.41:53556     server-108-138-125-162:https  ESTABLISHED
+  TCP    10.156.89.41:53557     server-18-164-93-226:https  ESTABLISHED
+  TCP    10.156.89.41:53560     54.239.26.205:https    ESTABLISHED
+  TCP    10.156.89.41:53561     54.239.26.205:https    ESTABLISHED
+  TCP    10.156.89.41:54056     170-114-14-76:https    ESTABLISHED
+  TCP    10.156.89.41:56396     162.159.130.234:https  ESTABLISHED
 ```
