@@ -84,3 +84,18 @@ TERM_PROGRAM=mintty
 ProgramData=C:\ProgramData
 _=/usr/bin/env
 ```
+```
+$ ps
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
+     1387    1386    1387      35724  pty0      197609 11:23:52 /usr/bin/bash
+     1780    1387    1780      26620  pty0      197609 12:15:59 /usr/bin/ps
+     1386       1    1386      23828  ?         197609 11:23:52 /usr/bin/mintty
+
+```
+``` 
+$ pwd
+/home/mcvwv/demo
+```
+```
+
+```
