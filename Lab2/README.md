@@ -97,5 +97,56 @@ $ pwd
 /home/mcvwv/demo
 ```
 ```
+$ git clone https://github.com/kevinwlu/iot.git
+Cloning into 'iot'...
+remote: Enumerating objects: 18352, done.
+remote: Counting objects: 100% (1066/1066), done.
+remote: Compressing objects: 100% (411/411), done.
+remote: Total 18352 (delta 591), reused 890 (delta 492), pack-reused 17286
+Receiving objects: 100% (18352/18352), 27.56 MiB | 9.92 MiB/s, done.
+Resolving deltas: 100% (12322/12322), done.
+```
+```
+$ ls
+iot
+```
+```
+$ cd iot
+```
+```
+$ ls
+README.md  economics  lesson10  lesson4  lesson7  make              standards
+apps       hype       lesson2   lesson5  lesson8  projects          tools
+cases      lesson1    lesson3   lesson6  lesson9  special_problems
+```
+```
+$ cd
+```
+```
+$ df
+Filesystem     1K-blocks      Used Available Use% Mounted on
+C:/msys64      480356348 346328492 134027856  73% /
+```
+```
+$ mkdir demo
+```
+```
+$ cd demo
+```
+```
+$ nano file
+###image
+###code inside nano file is simply the word "test"
+```
+```
+
+```
+```
+
+```
+```
+
+```
+```
 
 ```
