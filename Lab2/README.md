@@ -180,9 +180,35 @@ $ mv file file2
 ```
 $ rm file2
 ```
+
+#### clear: clears terminal
 ```
-$ uname
-MINGW64_NT-10.0-22000
+$ clear
+```
+
+#### $ uname --help ($ man uname on linux): prints out help commands for uname
+```
+$ uname --help
+Usage: uname [OPTION]...
+Print certain system information.  With no OPTION, same as -s.
+
+  -a, --all                print all information, in the following order,
+                             except omit -p and -i if unknown:
+  -s, --kernel-name        print the kernel name
+  -n, --nodename           print the network node hostname
+  -r, --kernel-release     print the kernel release
+  -v, --kernel-version     print the kernel version
+  -m, --machine            print the machine hardware name
+  -p, --processor          print the processor type (non-portable)
+  -i, --hardware-platform  print the hardware platform (non-portable)
+  -o, --operating-system   print the operating system
+      --help     display this help and exit
+      --version  output version information and exit
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Report any translation bugs to <https://translationproject.org/team/>
+Full documentation <https://www.gnu.org/software/coreutils/uname>
+or available locally via: info '(coreutils) uname invocation'
 ```
 
 #### uname -a: displays system information
@@ -223,7 +249,7 @@ Ethernet adapter Bluetooth Network Connection:
 
 ```
 
-#### ping localhost: 
+#### ping localhost: pings local ip address
 ```
 $ ping localhost
 
@@ -239,7 +265,7 @@ Approximate round trip times in milli-seconds:
     Minimum = 0ms, Maximum = 0ms, Average = 0ms
 ```
 
-#### netstat: 
+#### netstat:  generates displays that show network status and protocol statistics
 ```
 $ netstat
 
