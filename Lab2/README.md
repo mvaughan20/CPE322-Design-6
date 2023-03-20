@@ -104,6 +104,8 @@ $ ps
 $ pwd
 /home/mcvwv/demo
 ```
+
+#### git clone <>: clones the specifid directory
 ```
 $ git clone https://github.com/kevinwlu/iot.git
 Cloning into 'iot'...
@@ -163,12 +165,18 @@ $ nano file
 $ cat file
 test
 ```
+
+#### cp <> <>: copies file into new file
 ```
 $ cp file file1
 ```
+
+#### <> <>: moves contents from first file to 2nd file. If 2nd file does not exist, the file is created
 ```
 $ mv file file2
 ```
+
+#### rm <>: deleted file
 ```
 $ rm file2
 ```
@@ -176,12 +184,16 @@ $ rm file2
 $ uname
 MINGW64_NT-10.0-22000
 ```
+
+#### uname -a: displays system information
 ```
 $ uname -a
 MINGW64_NT-10.0-22000 angst-machine 3.4.6.x86_64 2023-02-15 18:03 UTC x86_64 Msys
 ```
+
+#### ipconfig (ifconfig on linux): Displays all current TCP/IP network configuration values, refreshes Dynamic Host Configuration Protocol (DHCP) and Domain Name System (DNS) settings
 ```
-$ ipconfig
+$ ipconfig 
 
 Windows IP Configuration
 
