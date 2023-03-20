@@ -153,11 +153,10 @@ $ cd demo
 ```
 
 #### nano file: actives linux text editor
-##### code inside nano file is simply the word "test"
-##### images goes here
+##### i changed the code inside nano file to the word "test"
+![images](https://cdn.discordapp.com/attachments/771717526019244032/1087419292884148264/image.png)
 ```
 $ nano file
-###image
 ```
 
 #### cat file: prints output of file in standard output stream
