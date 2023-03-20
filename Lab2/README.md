@@ -2,10 +2,14 @@
 ###### note: assignment was done on a windows machine using MSYS2, so some commands are replaced with equivalent commands (man uname and ifconfig)
 
 ### Going through each terminal command:
+
+#### hostname: xzy
 ```
 $ hostname
 angst-machine
 ```
+
+#### env: 
 ```
 $ env
 ProgramFiles(x86)=C:\Program Files (x86)
