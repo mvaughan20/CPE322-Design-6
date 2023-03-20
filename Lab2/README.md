@@ -3,13 +3,13 @@
 
 ### Going through each terminal command:
 
-#### hostname: xzy
+#### hostname: gives computer's hostname
 ```
 $ hostname
 angst-machine
 ```
 
-#### env: 
+#### env: displays current environment
 ```
 $ env
 ProgramFiles(x86)=C:\Program Files (x86)
@@ -88,6 +88,8 @@ TERM_PROGRAM=mintty
 ProgramData=C:\ProgramData
 _=/usr/bin/env
 ```
+
+#### ps: identifies programs running in system and the resources they use
 ```
 $ ps
       PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
@@ -96,6 +98,8 @@ $ ps
      1386       1    1386      23828  ?         197609 11:23:52 /usr/bin/mintty
 
 ```
+
+#### pwd: prints out the full path name of the directory you are currently in
 ``` 
 $ pwd
 /home/mcvwv/demo
@@ -110,10 +114,14 @@ remote: Total 18352 (delta 591), reused 890 (delta 492), pack-reused 17286
 Receiving objects: 100% (18352/18352), 27.56 MiB | 9.92 MiB/s, done.
 Resolving deltas: 100% (12322/12322), done.
 ```
+
+#### ls: lists all files in the directory you are in
 ```
 $ ls
 iot
 ```
+
+#### cd <>: moves you into specified directory
 ```
 $ cd iot
 ```
@@ -126,22 +134,31 @@ cases      lesson1    lesson3   lesson6  lesson9  special_problems
 ```
 $ cd
 ```
+
+#### df: displays amount of disk space available with each file's name argument
 ```
 $ df
 Filesystem     1K-blocks      Used Available Use% Mounted on
 C:/msys64      480356348 346328492 134027856  73% /
 ```
+
+#### mkdir <>: creates a new directory
 ```
 $ mkdir demo
 ```
 ```
 $ cd demo
 ```
+
+#### nano file: actives linux text editor
+##### code inside nano file is simply the word "test"
+##### images goes here
 ```
 $ nano file
 ###image
-###code inside nano file is simply the word "test"
 ```
+
+#### cat file: prints output of file in standard output stream
 ```
 $ cat file
 test
