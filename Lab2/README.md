@@ -221,7 +221,10 @@ Ethernet adapter Bluetooth Network Connection:
    Media State . . . . . . . . . . . : Media disconnected
    Connection-specific DNS Suffix  . :
 
-mcvwv@angst-machine MINGW64 ~/demo
+```
+
+#### ping localhost: 
+```
 $ ping localhost
 
 Pinging angst-machine [::1] with 32 bytes of data:
@@ -234,8 +237,10 @@ Ping statistics for ::1:
     Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
 Approximate round trip times in milli-seconds:
     Minimum = 0ms, Maximum = 0ms, Average = 0ms
+```
 
-mcvwv@angst-machine MINGW64 ~/demo
+#### netstat: 
+```
 $ netstat
 
 Active Connections
