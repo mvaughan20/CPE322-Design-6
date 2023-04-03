@@ -1,0 +1,150 @@
+PS C:\Users\mcvwv> cd iot
+PS C:\Users\mcvwv\iot> cd lesson3
+PS C:\Users\mcvwv\iot\lesson3> python3 julian.py
+Calendar Date: 2023-04-03
+Julian Date: 2460037.5
+Modified Julian Date: 60037.0
+PS C:\Users\mcvwv\iot\lesson3> python3 date_example.py
+Date: 2023-04-03
+Date: 04-03-23
+Day of Week: Monday
+Month: April
+Year: 2023
+75 days after the first day of classes
+31 days before the last day of classes
+PS C:\Users\mcvwv\iot\lesson3> python3 datetime_example.py
+2023-04-03 10:53:15.999471
+2023-04-03 10:53:15.999471
+2023-04-03 14:53:15.999471
+1680533595.9994714
+Mon Apr  3 10:53:15 2023
+2023-04-03 10:53:15.999471
+2023-04-03 14:53:15.999471
+PS C:\Users\mcvwv\iot\lesson3> python3 time_example.py
+Mon Apr  3 10:53:22 2023
+
+
+
+PS C:\Users\mcvwv\iot\lesson3> python3 moon.py
+2023-04-03 Moon Phase: 11
+2023-04-04 Moon Phase: 12
+2023-04-05 Moon Phase: 13
+2023-04-06 Moon Phase: 14
+2023-04-07 Moon Phase: 15
+2023-04-08 Moon Phase: 16
+2023-04-09 Moon Phase: 17
+2023-04-10 Moon Phase: 18
+2023-04-11 Moon Phase: 19
+2023-04-12 Moon Phase: 20
+2023-04-13 Moon Phase: 21
+2023-04-14 Moon Phase: 22
+2023-04-15 Moon Phase: 23
+2023-04-16 Moon Phase: 24
+2023-04-17 Moon Phase: 25
+2023-04-18 Moon Phase: 26
+2023-04-19 Moon Phase: 27
+2023-04-20 Moon Phase: 0
+2023-04-21 Moon Phase: 1
+2023-04-22 Moon Phase: 2
+2023-04-23 Moon Phase: 3
+2023-04-24 Moon Phase: 4
+2023-04-25 Moon Phase: 5
+2023-04-26 Moon Phase: 5
+2023-04-27 Moon Phase: 6
+2023-04-28 Moon Phase: 7
+2023-04-29 Moon Phase: 8
+2023-04-30 Moon Phase: 9
+2023-05-01 Moon Phase: 10
+2023-05-02 Moon Phase: 11
+
+
+
+
+PS C:\Users\mcvwv\iot\lesson3> python3 coordinates.py 'SC Williams Library'
+Library Parking, Williams Lake, Cariboo Regional District, British Columbia, Canada
+(52.130143399999994, -122.14187089155848)
+PS C:\Users\mcvwv\iot\lesson3> python3 address.py '40.74480675, -74.02532862031404'
+Samuel C. Williams Library, Field House Road, Hoboken, Hudson County, New Jersey, 07030, United States
+(40.74480675, -74.02532861159351)
+PS C:\Users\mcvwv\iot\lesson3> python3 cpu.py
+Traceback (most recent call last):
+  File "C:\Users\mcvwv\iot\lesson3\cpu.py", line 2, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+PS C:\Users\mcvwv\iot\lesson3> python3 battery.py
+Traceback (most recent call last):
+  File "C:\Users\mcvwv\iot\lesson3\battery.py", line 1, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+PS C:\Users\mcvwv\iot\lesson3> python3 documentstats.py document.txt
+Word Count: 1343
+Top Ten Words: [('our', 26), ('their', 20), ('has', 20), ('he', 19), ('them', 15), ('these', 13), ('have', 11), ('we', 11), ('us', 11), ('people', 10)]
+PS C:\Users\mcvwv\iot\lesson3>
+
+
+
+PS C:\Users\mcvwv\iot\lesson3> python3 cpu.py
+Traceback (most recent call last):
+  File "C:\Users\mcvwv\iot\lesson3\cpu.py", line 2, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+PS C:\Users\mcvwv\iot\lesson3> python3 sun.py 'New York'
+Traceback (most recent call last):
+  File "C:\Users\mcvwv\iot\lesson3\sun.py", line 1, in <module>
+    import sys, pytz
+ModuleNotFoundError: No module named 'pytz'
+PS C:\Users\mcvwv\iot\lesson3> pip install pytz
+Collecting pytz
+  Downloading pytz-2023.3-py2.py3-none-any.whl (502 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 502.3/502.3 kB 3.2 MB/s eta 0:00:00
+Installing collected packages: pytz
+Successfully installed pytz-2023.3
+
+[notice] A new release of pip available: 22.3.1 -> 23.0.1
+[notice] To update, run: C:\Users\mcvwv\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\python.exe -m pip install --upgrade pip
+PS C:\Users\mcvwv\iot\lesson3> python3 sun.py 'New York'
+Information for New York/USA
+
+Timezone: US/Eastern
+Latitude: 40.72; Longitude: -74.00
+
+Dawn:    2023-04-03 06:08:38.900946-04:00
+Sunrise: 2023-04-03 06:36:50.523610-04:00
+Noon:    2023-04-03 12:59:28-04:00
+Sunset:  2023-04-03 19:22:24.163265-04:00
+Dusk:    2023-04-03 19:50:40.477918-04:00
+PS C:\Users\mcvwv\iot\lesson3> python3 cpu.py
+Traceback (most recent call last):
+  File "C:\Users\mcvwv\iot\lesson3\cpu.py", line 2, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+PS C:\Users\mcvwv\iot\lesson3> pip install psutil
+Collecting psutil
+  Downloading psutil-5.9.4-cp36-abi3-win_amd64.whl (252 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 252.5/252.5 kB 3.1 MB/s eta 0:00:00
+Installing collected packages: psutil
+Successfully installed psutil-5.9.4
+
+[notice] A new release of pip available: 22.3.1 -> 23.0.1
+[notice] To update, run: C:\Users\mcvwv\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\python.exe -m pip install --upgrade pip
+PS C:\Users\mcvwv\iot\lesson3> python3 cpu.py
+The number of physical cores =  4
+The number of logical CPUs =  8
+The utilization per second as a percentage for each CPU
+[7.8, 3.1, 0.0, 0.0, 0.0, 0.0, 0.0, 1.6]
+[3.2, 1.6, 3.1, 0.0, 0.0, 0.0, 0.0, 0.0]
+[13.8, 6.2, 9.4, 3.1, 1.5, 3.0, 1.5, 0.0]
+[3.1, 7.7, 6.1, 3.0, 0.0, 0.0, 0.0, 0.0]
+[9.4, 1.6, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+[4.7, 3.2, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+[9.1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+[6.2, 1.5, 0.0, 0.0, 3.2, 0.0, 0.0, 0.0]
+[1.6, 6.2, 0.0, 1.6, 0.0, 0.0, 0.0, 0.0]
+[7.8, 3.1, 1.5, 3.2, 0.0, 0.0, 1.6, 0.0]
+PS C:\Users\mcvwv\iot\lesson3> python3 battery.py
+sbattery(percent=65, secsleft=12250, power_plugged=False)
+PS C:\Users\mcvwv\iot\lesson3>
+
+
+
+
