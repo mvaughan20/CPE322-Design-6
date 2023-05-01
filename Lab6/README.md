@@ -17,7 +17,7 @@ Server running at http://127.0.0.1:8080/
 response end call done
 request end event fired
 ```
-![images](https://cdn.discordapp.com/attachments/771717526019244032/1102616130767556629/image.png)
+![images](https://cdn.discordapp.com/attachments/771717526019244032/1102615875078590546/image.png)
 
 ### Running http.js:
 ```
