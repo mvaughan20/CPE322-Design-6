@@ -3,7 +3,7 @@
 ### Hash Value
 
 ![image](https://cdn.discordapp.com/attachments/771717526019244032/1102655766495760444/image.png)
-![image](https://cdn.discordapp.com/attachments/771717526019244032/1102656380793532466/image.png)
+
 
 ### Snakecoin
 ```
@@ -13,6 +13,7 @@ $ python3 snakecoin.py
 $ cat snakecoin-server-full-code.py
 $ python3 snakecoin-server-full-code.py
 ```
+![image](https://cdn.discordapp.com/attachments/771717526019244032/1102656380793532466/image.png)
 ![image](https://cdn.discordapp.com/attachments/771717526019244032/1102660317487575070/image.png)
 ![image](https://cdn.discordapp.com/attachments/771717526019244032/1102660816592977941/image.png)
 
