@@ -11,6 +11,17 @@
 ![image]()
 
 ### Python Blockchain App
+#### Cloned App:
+```
+$ git clone https://github.com/satwikkansal/python_blockchain_app.git
+$ cd ~/python_blockchain_app
+$ nano node_server.py
+```
+##### Edit Line of code to get app to work:
 ![image](https://cdn.discordapp.com/attachments/771717526019244032/1102663938417627156/image.png)
+
+```
+$ python3 node_server.py
+```
 ![image](https://cdn.discordapp.com/attachments/771717526019244032/1102667022493548655/image.png)
 ![image](https://cdn.discordapp.com/attachments/771717526019244032/1102667076138709074/image.png)
